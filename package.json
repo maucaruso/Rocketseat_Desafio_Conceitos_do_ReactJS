@@ -10,10 +10,10 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --watchAll=false",
-    "eject": "react-scripts eject"
+    "start": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js start",
+    "build": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js test --watchAll=false",
+    "eject": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js eject"
   },
   "browserslist": {
     "production": [
